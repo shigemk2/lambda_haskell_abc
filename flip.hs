@@ -7,3 +7,4 @@ main = do
     print $ test1 (* 2)
     print $ test2 (* 2)
     print $ test3 (* 2)
+    print $ flip map src (* 3)
