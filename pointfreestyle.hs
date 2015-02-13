@@ -12,3 +12,5 @@ main = do
     print $ f1 2 5
     print $ f2 2 5
     print $ g2 5
+    -- 関数合成は引数が同じでないとできない
+    -- print $ (g2.f3) 2

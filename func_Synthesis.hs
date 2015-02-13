@@ -6,3 +6,4 @@ main = do
     print $ (f . g) 1
     -- くっつけられた一つの関数という見方
     print $ (g . f) 1
+    print $ (g.f) 1
